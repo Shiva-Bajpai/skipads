@@ -1,0 +1,14 @@
+{
+  "name": "skipads",
+  "version": "1.0.0",
+  "description": "Chrome extension to automatically skip YouTube ads",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "author": "Shiva Bajpai",
+  "license": "MIT"
+}

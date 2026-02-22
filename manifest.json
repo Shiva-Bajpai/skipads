@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "SkipAds - YouTube Ad Skipper",
+    "version": "1.0",
+    "description": "Automatically skips YouTube ads when the skip button appears.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "dist/content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "48": "src/icon48.png",
+        "128": "src/icon48.png"
+    }
+}
